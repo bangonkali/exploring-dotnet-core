@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{42B23D2E-5E22-4709-9B8D-66DD5120FB05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4368568-D6E5-4B96-B09A-E02356485553}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AccountsManager", "src\AccountsManager\AccountsManager.xproj", "{57ADAD98-6261-477E-A0B2-5BC346D1ACF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57ADAD98-6261-477E-A0B2-5BC346D1ACF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57ADAD98-6261-477E-A0B2-5BC346D1ACF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57ADAD98-6261-477E-A0B2-5BC346D1ACF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57ADAD98-6261-477E-A0B2-5BC346D1ACF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57ADAD98-6261-477E-A0B2-5BC346D1ACF0} = {42B23D2E-5E22-4709-9B8D-66DD5120FB05}
+	EndGlobalSection
+EndGlobal
