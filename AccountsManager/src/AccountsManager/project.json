@@ -21,11 +21,14 @@
           "version": "1.0.1"
         }
       },
-      "imports": 
-      [
+      "imports": [
         "dnxcore50",
         "portable-net452+win81"
       ]
     }
+  },
+  "runtimes": {
+    "win10-x64": {},
+    "osx.10.10-x64": {}
   }
 }
